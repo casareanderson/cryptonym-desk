@@ -69,3 +69,9 @@ That's the whole deployment. It is one file and it works from `file://`.
 ## Licence
 
 MIT.
+
+---
+
+## Elsewhere
+
+More field notes from the same estate: **[dev.to/c1-anderson](https://dev.to/c1-anderson)**
