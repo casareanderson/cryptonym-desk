@@ -3,7 +3,7 @@
 **Name the films, anime and characters you like. The desk issues you a cryptonym,
 a working alias and a field codename built out of them.**
 
-→ **[Open it](https://casareanderson.github.io/cryptonym-desk/)**
+→ **[Open it](https://cryptonym.cn1-lab.uk)**
 
 One HTML file. No build, no dependencies, no network calls — what you type never
 leaves the page.
