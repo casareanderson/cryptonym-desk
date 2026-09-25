@@ -630,7 +630,7 @@
              "IRON","PAPER","WINTER","LOW","BLIND","GLASS","SLOW","FALSE"];
 
   var NOUN = ["LANTERN","HARBOUR","SPARROW","LEDGER","ORCHARD","SIGNAL","MERIDIAN",
-              "TRAWLER","CATHEDRAL","BALLAST","MERIDIAN","THICKET","CARRIAGE",
+              "TRAWLER","CATHEDRAL","BALLAST","THICKET","CARRIAGE",
               "ANCHOR","PARABLE"];
 
   var PRESETS = [
@@ -675,9 +675,12 @@
   }
 
   /* Split at vowel groups: "Spiegel" -> ["Spie","gel"]. Crude on purpose -
-     a tidy linguistic syllabifier produces tidier, duller mashups.        */
+     a tidy linguistic syllabifier produces tidier, duller mashups.
+     Each part is consonants + a vowel group; trailing consonants stay on
+     the last part. (Earlier versions kept one consonant after each vowel
+     group - "Spieg","el" - so the README example could never come out.)  */
   function parts(word) {
-    var m = word.match(/[^aeiouAEIOU]*[aeiouAEIOU]+(?:[^aeiouAEIOU]*$|[^aeiouAEIOU](?=[aeiouAEIOU]))?/g);
+    var m = word.match(/[^aeiou]*[aeiou]+(?:[^aeiou]+$)?/gi);
     return (m && m.length > 1) ? m : [word];
   }
 

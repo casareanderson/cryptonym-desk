@@ -66,6 +66,14 @@ open cryptonym-desk/index.html
 
 That's the whole deployment. It is one file and it works from `file://`.
 
+## Changelog
+
+**Fixed (2026-09):** the splitter now does what "How the mashup works" says
+(`Spiegel` -> `Spie·gel`, not `Spieg·el`), so `Spienagi` is finally reachable.
+Aliases for the same inputs therefore differ from earlier versions. The noun
+bank also listed `MERIDIAN` twice, drawing it at double weight; the duplicate
+is gone, which shifts some codenames too.
+
 ## Licence
 
 MIT.
