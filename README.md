@@ -129,3 +129,5 @@ MIT, see [LICENSE](LICENSE).
 Typefaces Antonio, Public Sans and Share Tech Mono are loaded from Google Fonts and are under the SIL Open Font License.
 
 More field notes from the same author: [dev.to/c1-anderson](https://dev.to/c1-anderson).
+
+If this is useful to you, [buy me a coffee](https://buymeacoffee.com/iamc_tech) ☕
