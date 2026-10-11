@@ -30,6 +30,8 @@ Both are Playwright captures of `index.html` opened from disk, as shipped in thi
 
 ## Quick start
 
+Full step-by-step guide, tested on a fresh machine every week: [docs/SETUP.md](docs/SETUP.md).
+
 You need a web browser. Nothing else.
 
 ```bash
@@ -128,6 +130,6 @@ MIT, see [LICENSE](LICENSE).
 
 Typefaces Antonio, Public Sans and Share Tech Mono are loaded from Google Fonts and are under the SIL Open Font License.
 
-More field notes from the same author: [dev.to/c1-anderson](https://dev.to/c1-anderson).
+More field notes from the same author: [dev.to/iam-tech](https://dev.to/iam-tech).
 
 If this is useful to you, [buy me a coffee](https://buymeacoffee.com/iamc_tech) ☕

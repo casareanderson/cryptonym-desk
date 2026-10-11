@@ -1,0 +1,30 @@
+name: setup-check
+
+# Opens the page in headless Chrome from file:// and from a plain web server, and checks a record
+# is issued. Runs weekly so a browser change shows up here first.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "53 6 * * 1"
+  push:
+    paths:
+      - "docs/SETUP.md"
+      - "scripts/**"
+      - "index.html"
+      - ".github/workflows/setup-check.yml"
+  pull_request:
+    paths:
+      - "docs/SETUP.md"
+      - "scripts/**"
+      - "index.html"
+
+permissions:
+  contents: read
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: google-chrome --version
+      - run: bash scripts/setup-check.sh
