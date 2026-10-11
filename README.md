@@ -6,6 +6,7 @@ Name the films, anime and characters you like, and the desk issues you a crypton
 
 [![Licence: MIT](https://img.shields.io/badge/licence-MIT-blue.svg)](LICENSE)
 ![Language: HTML + JavaScript](https://img.shields.io/badge/language-HTML%20%2B%20JS-orange.svg)
+[![Buy Me a Coffee](https://raw.githubusercontent.com/casareanderson/.github/main/badges/bmc-yellow.svg)](https://buymeacoffee.com/iamc_tech)
 
 Live copy: **[cryptonym.cn1-lab.uk](https://cryptonym.cn1-lab.uk)** (served from this repo by GitHub Pages).
 
